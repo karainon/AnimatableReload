@@ -2,7 +2,7 @@
 //  Animation.swift
 //  AnimatableReload
 //
-//  Created by Karainon on 2019/2/10.
+//  Created by Yeseni Hou on 2019/2/10.
 //
 import UIKit
 
