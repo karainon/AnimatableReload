@@ -213,7 +213,7 @@ public enum Direction {
 
 public extension UITableView {
 
-    public func reloadData(with animation: AnimationType, reversed: Bool = false, completion: (() -> Void)? = nil) {
+    func reloadData(with animation: AnimationType, reversed: Bool = false, completion: (() -> Void)? = nil) {
         reloadData()
         animation.animate(view: self, reversed: reversed, completion: completion)
     }
@@ -222,7 +222,7 @@ public extension UITableView {
 
 public extension UICollectionView {
     
-    public func reloadData(with animation: AnimationType, reversed: Bool = false, completion: (() -> Void)? = nil) {
+    func reloadData(with animation: AnimationType, reversed: Bool = false, completion: (() -> Void)? = nil) {
         reloadData()
         layoutIfNeeded()
         animation.animate(view: self, reversed: reversed, completion: completion)
